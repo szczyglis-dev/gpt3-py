@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# =============================================================================
-# This file is a part of GPT3-py package
-# WWW: https://github.com/szczyglis-dev/gpt3-py
-# MIT License
-# Created By  : Marcin Szczyglinski
-# Created Date: 2022.10.15 16:00:00
-# =============================================================================
+# =============================================== #
+# This file is a part of GPT3-py package          #
+# WWW: https://github.com/szczyglis-dev/gpt3-py   #
+# MIT License                                     #
+# Created By  : Marcin Szczyglinski               #
+# Created Date: 2022.10.15 16:00:00               #
+# =============================================== #
 
 from config import *
 from core import *

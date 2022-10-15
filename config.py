@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# =============================================================================
-# This file is a part of GPT3-py package
-# WWW: https://github.com/szczyglis-dev/gpt3-py
-# MIT License
-# Created By  : Marcin Szczyglinski
-# Created Date: 2022.10.15 16:00:00
-# =============================================================================
+# =============================================== #
+# This file is a part of GPT3-py package          #
+# WWW: https://github.com/szczyglis-dev/gpt3-py   #
+# MIT License                                     #
+# Created By  : Marcin Szczyglinski               #
+# Created Date: 2022.10.15 16:00:00               #
+# =============================================== #
 
 API_KEY = "<YOUR API KEY HERE>"  # <<<<< put your API key here
 
@@ -50,10 +50,12 @@ modes = {
     "code_bash": "Translate into Bash script",
 }
 
+# list of modes with conversation options
 modes_chat = [
     "chat",
 ]
 
+# list of modes with multiline input
 modes_multiline = ["custom", "code_humanize"]
 
 # list of time modes

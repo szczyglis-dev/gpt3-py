@@ -2,13 +2,13 @@ Python: **3.7+**, current release: **1.0.0** build 2022-10-15
 
 # GPT3-py - terminal-based AI chatbot and code generator
 
-**"GPT3-py" is a Bring-Your-Own-Key terminal application written in Python 3, allowing easy interaction with the OpenAI's GPT-3 artificial intelligence. The application provides a chat mode in the form of a configurable chatbot, as well as additional functions such as generating code in several different languages (Python, C++, C#, Java, Javascript, PHP, Assembly, SQL and Bash), translating the code into a human language, generating Linux and Windows commands based on the description and much more. The application is easy to configure and can be extended with your own features.**
+**"GPT3-py" is a Bring-Your-Own-Key terminal-based application written in Python 3, allowing easy interaction with the OpenAI's GPT-3 artificial intelligence. The application provides a chat mode in the form of a configurable chatbot, as well as additional functions such as generating code in several different languages (Python, C++, C#, Java, Javascript, PHP, Assembly, SQL and Bash), translating the code into a human language, generating Linux and Windows commands based on the description and much more. The application is easy to configure and can be extended with your own features.**
 
 >**INFO: The application requires your own OpenAI's API key to work and is intended for home use on a local machine.**
 
 ## What is GPT-3?
 >Generative Pre-trained Transformer 3 (GPT-3; stylized GPT·3) is an autoregressive language model that uses deep learning to produce human-like text. Given an initial text as prompt, it will produce text that continues the prompt.
-from: https://en.wikipedia.org/wiki/GPT-3
+From: https://en.wikipedia.org/wiki/GPT-3
 
 ## Features:
 
@@ -48,7 +48,7 @@ You must have an OpenAI account and obtain **your own API key** required for use
 
 After registering on the https://beta.openai.com/ website, generate your own API key and put it in the config file:
 
-```./config.py```
+```config.py```
 
 in section:
 
@@ -305,7 +305,7 @@ if [ -d /home/test ]; then cp -r /home/tmp/* /home/test/; fi
 ```
 
 
-## Get input from a STDIN
+## Getting input from STDIN
 
 There is a separate script in the repository that takes input from STDIN and returns a single response from GPT-3. 
 
@@ -313,11 +313,11 @@ This can be used to connect I/O with other commands and programs.
 
 **Example:**
 
-```python3 ./gpt3-stdin.py```
+```python3 ./gpt3_stdin.py```
 
 Command in the terminal:
 
-```echo "Hello" | python3 ./gpt3-stdin.py```
+```echo "Hello" | python3 ./gpt3_stdin.py```
 
 **Result:**
 
@@ -332,12 +332,12 @@ This can be used to connect I/O with other commands and programs.
 
 **Example:**
 
-```python3 ./gpt3-cmd.py```
+```python3 ./gpt3_cmd.py```
 
 Command in the terminal:
 
 ```
-python3 ./gpt3-cmd.py "hello!" > ./output.txt
+python3 ./gpt3_cmd.py "hello!" > ./output.txt
 cat ./output.txt
 ```
 
@@ -357,7 +357,7 @@ Moderation can be turned on or off using the parameter:
 
 located in the file:
 
-```./config.py```
+```config.py```
 
 
 ## History storage
@@ -369,7 +369,7 @@ To enable or disable saving to history use:
 
 located in the file:
 
-```./config.py```
+```config.py```
 
 By default, history is saved to the ```./history``` directory.
 

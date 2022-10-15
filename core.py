@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# =============================================================================
-# This file is a part of GPT3-py package
-# WWW: https://github.com/szczyglis-dev/gpt3-py
-# MIT License
-# Created By  : Marcin Szczyglinski
-# Created Date: 2022.10.15 16:00:00
-# =============================================================================
+# =============================================== #
+# This file is a part of GPT3-py package          #
+# WWW: https://github.com/szczyglis-dev/gpt3-py   #
+# MIT License                                     #
+# Created By  : Marcin Szczyglinski               #
+# Created Date: 2022.10.15 16:00:00               #
+# =============================================== #
 
 from config import *
 import openai
@@ -76,6 +76,7 @@ def append_extra(prompt, mode_place, mode_time, custom_place, custom_time):
 
     return prompt.strip().replace("<EXTRA>", extra_data)
 
+
 # reads version info
 def get_version():
     result = re.search(r'{}\s*=\s*[\'"]([^\'"]*)[\'"]'.format("__version__"), open('./__init__.py').read())
@@ -94,6 +95,7 @@ def to_history(text):
             prefix = datetime.datetime.now().strftime("%H:%M:%S") + ": "
         file.write(prefix + text + "\n")
         file.close()
+
 
 # appends user input
 def append_input(prompt, user_input):
