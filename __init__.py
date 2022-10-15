@@ -12,6 +12,6 @@ __author__ = "Marcin Szczygliński"
 __copyright__ = "Copyright 2022, Marcin Szczygliński"
 __credits__ = ["Marcin Szczygliński"]
 __license__ = "MIT"
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __maintainer__ = "Marcin Szczygliński"
 __email__ = "szczyglis@protonmail.com"

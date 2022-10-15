@@ -1,8 +1,8 @@
-Python: **3.7+**, current release: **1.0.0** build 2022-10-15
+Python: **3.7+**, current release: **1.0.1** build 2022-10-16
 
 # GPT3-py - terminal-based AI chatbot and code generator
 
-**"GPT3-py" is a Bring-Your-Own-Key terminal-based application written in Python 3, allowing easy interaction with the OpenAI's GPT-3 artificial intelligence. The application provides a chat mode in the form of a configurable chatbot, as well as additional functions such as generating code in several different languages (Python, C++, C#, Java, Javascript, PHP, Assembly, SQL and Bash), translating the code into a human language, generating Linux and Windows commands based on the description and much more. The application is easy to configure and can be extended with your own features.**
+**"GPT3-py" is a Bring-Your-Own-Key terminal-based application written in Python 3, allowing easy interaction with the OpenAI's GPT-3 artificial intelligence. The application provides a chat mode in the form of a configurable chatbot, as well as additional functions such as generating code in several different languages (Python, C++, C#, Java, Javascript, TypeScript, PHP, Assembly, SQL, Bash, Ruby, Go, Perl, R, Matlab and Q#), translating the code into a human language, generating Linux and Windows commands based on the description and much more. The application is easy to configure and can be extended with your own features.**
 
 >**INFO: The application requires your own OpenAI's API key to work and is intended for home use on a local machine.**
 
@@ -16,7 +16,7 @@ From: https://en.wikipedia.org/wiki/GPT-3
 - defining the terms of conversation with the chatbot, such as time and place
 - chatbot configuration
 - creating custom queries to GPT-3
-- Python, C++, C#, Java, Javascript, PHP, Assembly, SQL and Bash code generation from description
+- Python, C++, C#, Java, Javascript, TypeScript, PHP, Assembly, SQL, Bash, Ruby, Go, Perl, R, Matlab and Q# code generation from description
 - analysis and translation of code operation into human language
 - generating commands for Linux from the description
 - generating commands for Window (DOS and Powershell) from the description
@@ -66,8 +66,7 @@ or
 
 ## Screenshot:
 
-![gpt33](https://user-images.githubusercontent.com/61396542/195992693-74ba8623-01ee-4810-ab2b-d6685ed2e45d.png)
-
+![gpt101](https://user-images.githubusercontent.com/61396542/196010739-7c2d5902-7c15-4979-a502-37a11715b9a9.png)
 
 ## Feature list:
 
@@ -81,12 +80,21 @@ or
 7 - Translate into Python code
 8 - Translate into PHP code
 9 - Translate into Javascript code
-10 - Translate into Java code
-11 - Translate into C++ code
-12 - Translate into C# code
-13 - Translate into SQL code
-14 - Translate into Assembly code
-15 - Translate into Bash script
+10 - Translate into TypeScript
+11 - Translate into Java code
+12 - Translate into C++ code
+13 - Translate into C# code
+14 - Translate into SQL code
+15 - Translate into Assembly code
+16 - Translate into Bash script
+17 - Translate into Q#
+18 - Translate into Ruby
+19 - Translate into Go
+20 - Translate into Perl
+21 - Translate into R
+22 - Translate into Matlab
+23 - Translate into Lua
+
 ```
 
 # Usage:
@@ -262,7 +270,7 @@ Move-Item -Path 'C:\test' -Destination 'E:\'
 
 ## 7 - Translate into Python code and other languages
 
-Features **7 to 15** allow you to generate code based on the description of the action.
+Features **7 to 23** allow you to generate code based on the description of the action.
 
 The following is an example of use for Python:
 
@@ -290,7 +298,7 @@ The code generation for other languages is the same.
 
 Here is an example for Bash:
 
-**15 - Translate into Bash script**
+**16 - Translate into Bash script**
 
 **Example query:**
 
@@ -410,6 +418,8 @@ time_format = "%H:%M"
 ___
 
 ## Changelog
+
+**- 1.0.1** - Added additional languages: TypeScript, Ruby, Go, Perl, R, Matlab, Q# (2022-10-16)
 
 **- 1.0.0** - Published first release. (2022-10-15)
 

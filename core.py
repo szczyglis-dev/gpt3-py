@@ -144,6 +144,10 @@ def run(mode, mode_place, mode_time, user_input, temperature, custom_place, cust
         stop = "@!__!@"
         temperature = 0.0
         prompt = append_input(prompts["code_js"], user_input)
+    elif mode == "code_typescript":
+        stop = "@!__!@"
+        temperature = 0.0
+        prompt = append_input(prompts["code_typescript"], user_input)
     elif mode == "code_java":
         stop = "@!__!@"
         temperature = 0.0
@@ -168,5 +172,33 @@ def run(mode, mode_place, mode_time, user_input, temperature, custom_place, cust
         stop = "@!__!@"
         temperature = 0.0
         prompt = append_input(prompts["code_bash"], user_input)
+    elif mode == "code_qsharp":
+        stop = "@!__!@"
+        temperature = 0.0
+        prompt = append_input(prompts["code_qsharp"], user_input)
+    elif mode == "code_ruby":
+        stop = "@!__!@"
+        temperature = 0.0
+        prompt = append_input(prompts["code_ruby"], user_input)
+    elif mode == "code_go":
+        stop = "@!__!@"
+        temperature = 0.0
+        prompt = append_input(prompts["code_go"], user_input)
+    elif mode == "code_perl":
+        stop = "@!__!@"
+        temperature = 0.0
+        prompt = append_input(prompts["code_perl"], user_input)
+    elif mode == "code_r":
+        stop = "@!__!@"
+        temperature = 0.0
+        prompt = append_input(prompts["code_r"], user_input)
+    elif mode == "code_matlab":
+        stop = "@!__!@"
+        temperature = 0.0
+        prompt = append_input(prompts["code_matlab"], user_input)
+    elif mode == "code_lua":
+        stop = "@!__!@"
+        temperature = 0.0
+        prompt = append_input(prompts["code_lua"], user_input)
 
     return prompt, temperature, stop

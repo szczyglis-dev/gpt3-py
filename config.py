@@ -42,12 +42,20 @@ modes = {
     "code_python": "Translate into Python code",
     "code_php": "Translate into PHP code",
     "code_js": "Translate into Javascript code",
+    "code_typescript": "Translate into TypeScript",
     "code_java": "Translate into Java code",
     "code_cpp": "Translate into C++ code",
     "code_csharp": "Translate into C# code",
     "code_sql": "Translate into SQL code",
     "code_assembly": "Translate into Assembly code",
     "code_bash": "Translate into Bash script",
+    "code_qsharp": "Translate into Q#",
+    "code_ruby": "Translate into Ruby",
+    "code_go": "Translate into Go",
+    "code_perl": "Translate into Perl",
+    "code_r": "Translate into R",
+    "code_matlab": "Translate into Matlab",
+    "code_lua": "Translate into Lua",
 }
 
 # list of modes with conversation options
@@ -91,12 +99,20 @@ prompts = {
     "code_python": "Translate this into Python code:\n<INPUT>",
     "code_php": "Translate this into PHP code:\n<INPUT>",
     "code_js": "Translate this into Javascript code:\n<INPUT>",
+    "code_typescript": "Translate this into TypeScript code:\n<INPUT>",
     "code_java": "Translate this into Java code:\n<INPUT>",
     "code_cpp": "Translate this into C++ code:\n<INPUT>",
     "code_csharp": "Translate this into C# code:\n<INPUT>",
     "code_sql": "Translate this into SQL code:\n<INPUT>",
     "code_assembly": "Translate this into Assembly code:\n<INPUT>",
     "code_bash": "Translate this into Bash code:\n<INPUT>",
+    "code_qsharp": "Translate this into Q# code:\n<INPUT>",
+    "code_ruby": "Translate this into Ruby code:\n<INPUT>",
+    "code_go": "Translate this into Go code:\n<INPUT>",
+    "code_perl": "Translate this into Perl code:\n<INPUT>",
+    "code_r": "Translate this into R code:\n<INPUT>",
+    "code_matlab": "Translate this into Matlab code:\n<INPUT>",   
+    "code_lua": "Translate this into Lua code:\n<INPUT>",
 }
 
 # language strings
