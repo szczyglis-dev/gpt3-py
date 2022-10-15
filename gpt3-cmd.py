@@ -19,20 +19,21 @@ user_input = sys.argv[1]
 user_input = user_input.strip()
 
 # run
-prompt, temperature, stop = run(mode, mode_place, mode_time, user_input, temperature, custom_place, custom_time, stop, prompts)
+prompt, temperature, stop = run(mode, mode_place, mode_time, user_input, temperature, custom_place, custom_time, stop,
+                                prompts)
 
 # store to history
 if store_history:
-	to_history("> " + user_input)
+    to_history("> " + user_input)
 
-# show response	
+# get response
 output = get_response(model, prompt, temperature, max_tokens, top_p, frequency_penalty, presence_penalty, stop)
 if is_moderation:
-	output = moderate(output)
+    output = moderate(output)
 
 # store to history
 if store_history:
-	to_history(output)
+    to_history(output)
 
 # show output
 print(output)
