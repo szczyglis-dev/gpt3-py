@@ -222,7 +222,7 @@ You can enter any code to get an explanation of how it works.
 
 ## 5 - Translate into Linux command
 
-The option allows you to generate any command for Linux based on the description.
+This feature allows you to generate any command for Linux based on the description.
 
 **Example query:**
 
@@ -264,7 +264,7 @@ Move-Item -Path 'C:\test' -Destination 'E:\'
 
 Features **7 to 15** allow you to generate code based on the description of the action.
 
-The following is an example query of use for Python:
+The following is an example of use for Python:
 
 ```
 > read all files in the ./test directory, pack them all, and save them to packed.zip
