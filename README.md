@@ -1,6 +1,6 @@
 Python: **3.7+**, current release: **1.0.0** build 2022-10-15
 
-# GPT3-py
+# GPT3-py - terminal based chatbot and code generator
 
 **"GPT3-py" is a Bring-Your-Own-Key terminal application written in Python 3, allowing easy interaction with the OpenAI's GPT-3 artificial intelligence. The application provides a chat mode in the form of a configurable chatbot, as well as additional functions such as generating code in several different languages (Python, C++, C#, Java, Javascript, PHP, Assembly, SQL and Bash), translating the code into a human language, generating Linux and Windows commands based on the description and much more. The application is easy to configure and can be extended with your own features.**
 
