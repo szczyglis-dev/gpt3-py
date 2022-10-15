@@ -6,6 +6,10 @@ Python: **3.7+**, current release: **1.0.0** build 2022-10-15
 
 >**INFO: The application requires your own API key to work and is intended for home use on a local machine.**
 
+## What is GPT-3?
+>Generative Pre-trained Transformer 3 (GPT-3; stylized GPT·3) is an autoregressive language model that uses deep learning to produce human-like text. Given an initial text as prompt, it will produce text that continues the prompt.
+from: https://en.wikipedia.org/wiki/GPT-3
+
 ## Features:
 
 - GPT-3 powered chatbot running in the terminal
@@ -41,6 +45,7 @@ or
 ## First launch:
 
 You must have an OpenAI account and obtain **your own API key** required for use with the application.
+
 After registering on the https://beta.openai.com/ website, generate your own API key and put it in the config file:
 
 ```./config.py```
