@@ -1,6 +1,6 @@
 Python: **3.7+**, current release: **1.0.0** build 2022-10-15
 
-# GPT3-py - terminal-based AI chatbot and code generator
+# GPT3-py - terminal based AI chatbot and code generator
 
 **"GPT3-py" is a Bring-Your-Own-Key terminal-based application written in Python 3, allowing easy interaction with the OpenAI's GPT-3 artificial intelligence. The application provides a chat mode in the form of a configurable chatbot, as well as additional functions such as generating code in several different languages (Python, C++, C#, Java, Javascript, PHP, Assembly, SQL and Bash), translating the code into a human language, generating Linux and Windows commands based on the description and much more. The application is easy to configure and can be extended with your own features.**
 
@@ -353,7 +353,7 @@ The package includes a built-in moderation of responses returned by GPT-3, respo
 Moderation can be turned on or off using the parameter:
 
 
-```is_moderation = True/False```
+```is_moderation = True|False```
 
 located in the file:
 
@@ -365,7 +365,7 @@ located in the file:
 The application has the option of saving the entire history of conversations to .txt files.
 To enable or disable saving to history use:
 
-```store_history = True/False```
+```store_history = True|False```
 
 located in the file:
 
