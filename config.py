@@ -5,7 +5,7 @@
 # WWW: https://github.com/szczyglis-dev/gpt3-py   #
 # MIT License                                     #
 # Created By  : Marcin Szczyglinski               #
-# Created Date: 2022.10.15 16:00:00               #
+# Created Date: 2022.10.16 01:00:00               #
 # =============================================== #
 
 API_KEY = "<YOUR API KEY HERE>"  # <<<<< put your API key here
@@ -49,13 +49,13 @@ modes = {
     "code_sql": "Translate into SQL code",
     "code_assembly": "Translate into Assembly code",
     "code_bash": "Translate into Bash script",
-    "code_qsharp": "Translate into Q#",
-    "code_ruby": "Translate into Ruby",
-    "code_go": "Translate into Go",
-    "code_perl": "Translate into Perl",
-    "code_r": "Translate into R",
-    "code_matlab": "Translate into Matlab",
-    "code_lua": "Translate into Lua",
+    "code_qsharp": "Translate into Q# code",
+    "code_ruby": "Translate into Ruby code",
+    "code_go": "Translate into Go code",
+    "code_perl": "Translate into Perl code",
+    "code_r": "Translate into R code",
+    "code_matlab": "Translate into Matlab code",
+    "code_lua": "Translate into Lua code",
 }
 
 # list of modes with conversation options

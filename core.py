@@ -5,7 +5,7 @@
 # WWW: https://github.com/szczyglis-dev/gpt3-py   #
 # MIT License                                     #
 # Created By  : Marcin Szczyglinski               #
-# Created Date: 2022.10.15 16:00:00               #
+# Created Date: 2022.10.16 01:00:00               #
 # =============================================== #
 
 from config import *
