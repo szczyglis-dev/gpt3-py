@@ -66,7 +66,7 @@ or
 
 ## Screenshot:
 
-![gpt101](https://user-images.githubusercontent.com/61396542/196010739-7c2d5902-7c15-4979-a502-37a11715b9a9.png)
+![1 0 1](https://user-images.githubusercontent.com/61396542/196011245-690390a2-8510-4105-8d09-c8b6cc1eaf1f.png)
 
 ## Feature list:
 
@@ -87,14 +87,13 @@ or
 14 - Translate into SQL code
 15 - Translate into Assembly code
 16 - Translate into Bash script
-17 - Translate into Q#
-18 - Translate into Ruby
-19 - Translate into Go
-20 - Translate into Perl
-21 - Translate into R
-22 - Translate into Matlab
-23 - Translate into Lua
-
+17 - Translate into Q# code
+18 - Translate into Ruby code
+19 - Translate into Go code
+20 - Translate into Perl code
+21 - Translate into R code
+22 - Translate into Matlab code
+23 - Translate into Lua code
 ```
 
 # Usage:
