@@ -18,7 +18,7 @@ from: https://en.wikipedia.org/wiki/GPT-3
 - creating custom queries to GPT-3
 - Python, C++, C#, Java, Javascript, PHP, Assembly, SQL and Bash code generation from description
 - analysis and translation of code operation into human language
-- generating commands for Linux on the description
+- generating commands for Linux from the description
 - generating commands for Window (DOS and Powershell) from the description
 - easy to configure and modify
 - works under any operating system in the terminal
