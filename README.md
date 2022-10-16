@@ -116,7 +116,7 @@ In the next step, you can define the time of the conversation:
 CHOOSE TIME, OR LEAVE EMPTY IF YOU DO NOT WANT TO SET CUSTOM TIME:
 0 - Do not set custom time (default)
 1 - Custom time
-2 - Real time```
+2 - Real time
 ```
 By default, the time is not specified, but you can enter your own time or choose the real time. When choosing the option to enter your own time, you can enter the full date, time or time of the day, e.g.:
 
@@ -153,8 +153,6 @@ BEGIN:
 We are currently in your home.
 > what do you thing about this place?
 I think this place is great! It's really cozy and has a lot of character.
-
----------
 ```
 
 **Tip:** to end the conversation at any time and exit the application, use the **CTRL+C** key combination.
