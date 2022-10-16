@@ -118,6 +118,7 @@ def run(mode, mode_place, mode_time, user_input, temperature, custom_place, cust
         prompt = append_input(prompts["chat"], user_input)
     elif mode == "custom":
         stop = "@!__!@"
+        temperature = 0.0
         prompt = user_input.strip()
     elif mode == "code_humanize":
         if stop == "":
