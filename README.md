@@ -1,4 +1,27 @@
-Python: **3.7+**, current release: **1.0.1** build 2022-10-16
+Python: **3.7+**, current release: **1.0.1** build 2022-10-16  **THIS REPOSITORY IS OBSOLETE**
+
+-----------------------------
+# INFORMATION >>>
+This is an obsolete version.
+Check the newer desktop version called **PYGPT**.
+
+**PYGPT** supports **GPT4**, **GPT3**, **GPT3.5** and **DALL-E 2** and offers features like short and long-memory, context storage and restore, editable prompts presets and more. 
+It is available for Windows and Linux (compiled binary desktop versions are available to download from project website).
+
+## PYGPT is here:
+
+https://github.com/szczyglis-dev/py-gpt
+
+https://pygpt.net
+
+**Enjoy!**
+
+![app1](https://user-images.githubusercontent.com/61396542/230803425-5035ccd8-50d9-4fef-9774-8843cf3ce5b0.jpg)
+
+-----------------------------
+
+
+**<<< END OF INFORMATION, OLD VERSION:**
 
 # GPT3-py - terminal based AI chatbot and code generator
 
