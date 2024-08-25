@@ -443,16 +443,10 @@ ___
 
 **- 1.0.0** - Published first release. (2022-10-15)
 
+--- 
+**GPT3-py is free to use, but if you like it, you can support my work by buying me a coffee ;)**
 
-## Credits
- 
-### GPT3-py is free to use but if you liked then you can donate project via BTC: 
-
-**14X6zSCbkU5wojcXZMgT9a4EnJNcieTrcr**
-
-or by PayPal:
- **[https://www.paypal.me/szczyglinski](https://www.paypal.me/szczyglinski)**
-
+https://www.buymeacoffee.com/szczyglis
 
 **Enjoy!**
 
